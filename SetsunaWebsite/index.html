@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setsuna Philippines</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/fe039d112d.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <div class="navbar" id="navbar">
+        <div class="navbar_container">
+            <a href="#"><img src="images/setsuna_nav.png" alt="Setsuna-nav" class="navbar_logo"></a>
+          <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a class="navbar_links" data-link="about">
+                    About &nbsp; <i class="fa-solid fa-circle-info"></i>
+                </a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar_links" href="#">
+                    Menu &nbsp; <i class="fa-solid fa-utensils"></i>
+                </a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar_links" data-link="contact">
+                    Contact &nbsp; <i class="fa-solid fa-phone"></i>
+                </a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar_links" data-link="career">
+                    Career &nbsp; <i class="fa-solid fa-briefcase"></i>
+                </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero" id="hero">
+        <div class="hero_container">
+            <img src="images/ramen.jpg" alt="Setsuna-ramen" class="bg">
+            <img src="images/sushi.jpg" alt="Setsuna-sushi" class="bg">
+            <img src="images/bento.jpg" alt="Setsuna-bento" class="bg">
+            <div class="hero_content">
+                <img src="images/setsuna_logo.png" alt="Setsuna-Logo" class="hero_logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="about" id="about">
+        <h1 id="heading">About Us</h1>
+        <div class="about_container">
+            <div class="about_content">
+                <p>Setsuna Philippines offers various affordable and quality Japanese food cuisines and milk tea. We also established friendly and personal interactions to customers that walks through the door, spreading love and giving them their best experience as they dine in Setsuna.</p>
+                <p>Since Setsuna was established during the year 2020, we continue to give memorable and delicious meals while keeping our area sanitised, protecting our customers and staffs safe from Covid-19 virus.</p>
+                        <button type="button" class="about_button"><strong><a href="about.html">Learn more</a></strong></button>
+            </div>
+            <div class="about_img_container">
+                <img src="images/ramen.jpg" alt="Setsuna Mana" class="about_img"> <!-- Replace image with Setsuna Mana outside/inside -->
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU SECTION -->
+    <div class="menu" id="menu">
+        <h1 id="heading">Our Menu</h1>
+        <div class="menu_content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="menu_container">
+                <div class="menu_card_container">
+                    <div class="menu_img_container">
+                        <img src="images/bento.jpg" alt="Setsuna-Molino" class="menu_molino_img"> <!-- insert Setsuna Molino img -->
+                    </div>
+                    <button class="menu_button"><strong><a href="menu/SetsunaMolino_Dec22.pdf" target="_blank">Molino</a></strong></button> <!-- Molino menu PDF -->
+                </div>
+                <div class="menu_card_container">
+                    <div class="menu_img_container">
+                        <img src="images/ramen.jpg" alt="Setsuna-Mana" class="menu_mana_img"> <!-- insert Setsuna Mana img -->
+                    </div>
+                    <button class="menu_button"><strong><a href="menu/SetsunaMana_Dec22.pdf" target="_blank">Mana</a></strong></button> <!-- Mana menu PDF -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+TODO : 
+    Once molino & mana restaurant img obtained,
+    - Fix MENU_IMG_CONTAINTER , MENU_MOLINO_IMG , MENU_MANA_IMG
+    
+    Fix NAVBAR_LINKS when hovered out
+
+    Make MENU_BUTTON fade in/out when hovered in/out respectively 
+ -->
