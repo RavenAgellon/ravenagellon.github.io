@@ -428,8 +428,8 @@
 }
 
 .about__img--container {
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
     position: relative;
     overflow: hidden;
     margin: 0 20px;
@@ -497,6 +497,16 @@
 .portfolio__content h2 {
     text-align: center;
     font-size: 1.7rem;
+}
+
+.portfolio__content li {
+    list-style-position: inside;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.portfolio__content li span {
+    font-size: 1.2rem;
 }
 
 .portfolio__container hr {
